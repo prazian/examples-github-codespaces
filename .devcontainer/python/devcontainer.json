@@ -47,5 +47,11 @@
     "TZ": "Europe/Copenhagen"
   },
   "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": {
+      "label": "Flask",
+      "onAutoForward": "notify"
+    }
+  },
   "onCreateCommand": "pip install -r requirements.txt"
 }
