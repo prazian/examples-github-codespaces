@@ -4,6 +4,13 @@
   "customizations": {
     "vscode": {
       "settings": {
+        "workbench.colorTheme": "Default Dark+",
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.startupEditor": "README.md",
+        "workbench.editor.enablePreview": false,
+        "workbench.editor.enablePreviewFromQuickOpen": false,
+        "workbench.editor.enablePreviewFromCodeNavigation": false,
+        "workbench.editor.showIcons": false,
         "dev.containers.copyGitConfig": true,
         "terminal.integrated.shell.linux": "/usr/bin/zsh",
         "terminal.integrated.defaultProfile.linux": "zsh",
