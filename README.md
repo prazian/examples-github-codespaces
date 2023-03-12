@@ -3,6 +3,7 @@ This repository contains some Github Codespaces examples.
 
 # Example devcontainers files
 - [Typescript](./.devcontainer/typescript/devcontainer.json)
+- [Python](./.devcontainer/python/devcontainer.json)
 
 # Documentation & examples
 - https://code.visualstudio.com/docs/devcontainers/containers
