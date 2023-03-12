@@ -1,0 +1,51 @@
+{
+  "name": "Example: Python 3.9",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "dev.containers.copyGitConfig": true,
+        "terminal.integrated.shell.linux": "/usr/bin/zsh",
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python",
+        "gitlens.advanced.messages": {
+          "suppressShowKeyBindingsNotice": true
+        },
+        "gitlens.historyExplorer.enabled": true,
+        "gitlens.views.repositories.files.layout": "tree",
+        "gitlens.views.repositories.files.compact": true,
+        "git-graph.advanced.messages": {
+          "suppressShowKeyBindingsNotice": true
+        },
+        "[python]": {
+          "editor.defaultFormatter": "ms-python.python"
+        }
+      },
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "eamodio.gitlens",
+        "mhutchie.git-graph",
+        "donjayamanne.githistory",
+        "waderyan.gitblame"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": true,
+      "configureZshAsDefaultShell": true,
+      "installOhMyZsh": true,
+      "upgradePackages": true
+    }
+  },
+  "remoteUser": "python",
+  "containerUser": "python",
+  "containerEnv": {
+    "TZ": "Europe/Copenhagen"
+  },
+  "forwardPorts": [5000],
+  "onCreateCommand": "pip install -r requirements.txt"
+}
