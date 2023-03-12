@@ -5,6 +5,7 @@
     "vscode": {
       "settings": {
         "workbench.colorTheme": "Default Dark+",
+        "editor.fontSize": 14,
         "workbench.iconTheme": "vscode-icons",
         "workbench.startupEditor": "README.md",
         "workbench.editor.enablePreview": false,
